@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pedalbuddy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.pedalbuddy.AdminTransactionDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.TransactionAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.ManageLocationsAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.ViewQueryAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.pedalbuddy.Contact" />
+        <activity
+            android:name="com.example.pedalbuddy.ViewCycleAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.AdminProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.ViewUserAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.pedalbuddy.UserLogin" />
+        <activity
+            android:name="com.example.pedalbuddy.AdminMenu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.TransactionDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.ConfirmRide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.UpdateCycle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.pedalbuddy.AdminLogin" />
+        <activity
+            android:name="com.example.pedalbuddy.Transaction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.GetRide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.ManageCycle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.RegisterCycle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pedalbuddy.Menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.pedalbuddy.Signup" />
+        <activity android:name="com.example.pedalbuddy.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
